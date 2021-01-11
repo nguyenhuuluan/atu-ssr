@@ -1,0 +1,21 @@
+@import 'styles/_boxShadow.scss';
+
+.cardHeader {
+  border-radius: 3px;
+  padding: 1rem 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: -30px;
+  border: 0;
+  margin-bottom: 0;
+}
+.cardHeaderPlain {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.warningCardHeader {
+  color: #fff;
+  background: linear-gradient(60deg, #ffa726, #fb8c00);
+  @include boxShadow($warningBoxShadow);
+}

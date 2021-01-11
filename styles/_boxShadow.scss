@@ -1,0 +1,24 @@
+$primaryBoxShadow: 0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12),
+  0 7px 8px -5px rgba(156, 39, 176, 0.2);
+$infoBoxShadow: 0 12px 20px -10px rgba(0, 188, 212, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12),
+  0 7px 8px -5px rgba(0, 188, 212, 0.2);
+$successBoxShadow: 0 12px 20px -10px rgba(76, 175, 80, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12),
+  0 7px 8px -5px rgba(76, 175, 80, 0.2);
+$warningBoxShadow: 0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12),
+  0 7px 8px -5px rgba(255, 152, 0, 0.2);
+$dangerBoxShadow: 0 12px 20px -10px rgba(244, 67, 54, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12),
+  0 7px 8px -5px rgba(244, 67, 54, 0.2);
+$roseBoxShadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(233, 30, 99, 0.4);
+$redBoxShadow: 0 12px 20px -10px rgba(231, 29, 54, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12),
+  0 7px 8px -5px rgba(231, 29, 54, 0.2);
+$brightYellowBoxShadow: 0 12px 20px -10px rgba(255, 159, 28, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12),
+  0 7px 8px -5px rgba(255, 159, 28, 0.2);
+$blueGreenBoxShadow: 0 12px 20px -10px rgba(46, 196, 182, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12),
+  0 7px 8px -5px rgba(46, 196, 182, 0.2);
+$whiteShadow: 0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15);
+$darkShadow: 0 12px 20px -10px rgba(1, 22, 39, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12),
+  0 7px 8px -5px rgba(1, 22, 39, 0.2);
+
+@mixin boxShadow($color) {
+  box-shadow: $color;
+}

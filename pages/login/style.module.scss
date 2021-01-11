@@ -1,0 +1,62 @@
+@import 'styles/styles.scss';
+
+.container {
+  @extend .container;
+  z-index: 2;
+  position: relative;
+  padding-top: 20vh;
+  color: #ffffff;
+  padding-bottom: 200px;
+}
+
+.pageHeader {
+  min-height: 100vh;
+  height: auto;
+  display: inherit;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  align-items: center;
+  &:before {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  &:before,
+  &:after {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    content: '';
+  }
+}
+
+.form {
+  margin: 0;
+}
+
+.cardHeader {
+  width: auto;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -40px;
+  padding: 20px 0;
+  margin-bottom: 15px;
+}
+
+.cardFooter {
+  display: block;
+  padding-top: 0rem;
+  border: 0;
+  border-radius: 6px;
+  justify-content: center !important;
+}
+
+.cardHidden {
+  opacity: 0;
+  transform: translate3d(0, -60px, 0);
+}

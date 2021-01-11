@@ -1,0 +1,7 @@
+{
+  "checkjs": true,
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "include": ["."]
+}
