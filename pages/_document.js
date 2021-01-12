@@ -23,7 +23,6 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <title>My page</title>
           <meta property="custom" content="yolo" />
         </Head>
         <body>

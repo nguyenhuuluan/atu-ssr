@@ -8,14 +8,40 @@
   margin-top: -30px;
   border: 0;
   margin-bottom: 0;
+  color: #fff;
+  background: linear-gradient(60deg, #ab47bc, #8e24aa);
+  &.primary {
+    @include boxShadow($primaryBoxShadow);
+  }
+  &.warning {
+    background: linear-gradient(60deg, #ffa726, #fb8c00);
+    @include boxShadow($warningBoxShadow);
+  }
+  &.successCardHeader {
+    background: linear-gradient(60deg, #66bb6a, #43a047);
+    @include boxShadow($successBoxShadow);
+  }
+  &.dangerCardHeader {
+    background: linear-gradient(60deg, #ef5350, #e53935);
+    @include boxShadow($dangerBoxShadow);
+  }
+  &.infoCardHeader {
+    background: linear-gradient(60deg, #26c6da, #00acc1);
+    @include boxShadow($infoBoxShadow);
+  }
+  &.roseCardHeader {
+    background: linear-gradient(60deg, #ec407a, #d81b60);
+    @include boxShadow($roseBoxShadow);
+  }
+  &.brightYellowCardHeader {
+    background: radial-gradient(circle, rgba(238, 143, 12, 1) 0%, rgba(230, 166, 79, 1) 100%);
+    @include boxShadow($brightYellowBoxShadow);
+  }
+
 }
 .cardHeaderPlain {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-.warningCardHeader {
-  color: #fff;
-  background: linear-gradient(60deg, #ffa726, #fb8c00);
-  @include boxShadow($warningBoxShadow);
-}
+

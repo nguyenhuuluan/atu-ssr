@@ -1,7 +1,7 @@
 {
   "checkjs": true,
-  "compilerOptions": {
-    "baseUrl": "."
-  },
-  "include": ["."]
+  // "compilerOptions": {
+  //   "baseUrl": "."
+  // },
+  // "include": ["."]
 }
